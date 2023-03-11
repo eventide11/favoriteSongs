@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+@media only screen and (min-width: 1920px) {
+    body {
+        color: aliceblue;
+        font-size: 16px;
+        background: black;
+    }
+    main {
+        width: 35%;
+        margin: 0 auto;
+    }
+    main label input {
+        width: 40%;
+        height: 35px;
+        font-size: 1.5rem;
+        background: aliceblue;
+    }
+    button {
+        width: 17%;
+        height: 35px;
+        color: aliceblue;
+        font-family: 'Unbounded', cursive;
+        font-size: 1.3rem;
+        background: rgb(179, 0, 94);
+    }
+    main article.radiohead, main article.cigarettesAfterSex, main article.michelleFeatherstone {
+        line-height: 1.5;
+        padding: 0 0 23px 0;
+    }
+	main article.radiohead {
+		font-family: 'Unbounded', cursive;
+		background: rgb(77, 69, 93);
+	}
+	main article.cigarettesAfterSex {
+	    font-family: 'Courgette', cursive;
+		background: rgb(105, 130, 105);
+	}
+	main article.michelleFeatherstone {
+		font-family: 'Josefin Slab', serif;
+		background: rgb(233, 100, 121);
+	}
+    main article div {
+        width: 2.3%;
+        height: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main article.radiohead div.play {
+        position: absolute;
+        left: 47.5%;
+        top: 90px;
+        background-image: url(metallicPlay307x293.png);
+    }
+    main article.radiohead div.stop {
+        position: absolute;
+        right: 47.5%;
+        top: 90px;
+        background-image: url(metallicStop420x410.png);
+    }
+    main article.cigarettesAfterSex div.play {
+        position: absolute;
+        left: 47.5%;
+        top: 1220px;
+        background-image: url(metallicPlay307x293.png);
+    }
+    main article.cigarettesAfterSex div.stop {
+        position: absolute;
+        right: 47.5%;
+        top: 1220px;
+        background-image: url(metallicStop420x410.png);
+    }
+    main article.michelleFeatherstone div.play {
+        position: absolute;
+        left: 47.5%;
+        top: 2510px;
+        background-image: url(metallicPlay307x293.png);
+    }
+    main article.michelleFeatherstone div.stop {
+        position: absolute;
+        right: 47.5%;
+        top: 2510px;
+        background-image: url(metallicStop420x410.png);
+    }
+    main article.site-search {
+        height: 500px;
+        display: grid;
+        place-items: center;
+        background: rgb(245, 233, 207);
+    }
+    main article p.song {
+        padding: 23px 0 0 0;
+        text-align: center;
+    }
+    main article p {
+        padding: 0 0 0 5%;
+    }
+    main article.site-search p {
+        width: 61%;
+        font-family: 'Share Tech Mono', monospace;
+        color: black;
+        letter-spacing: .11rem;
+        line-height: 1.5;
+        background: rgb(125, 185, 182);
+    }
+}
+
+
+@media only screen and (max-width: 1919px) {
+    body {
+        color: aliceblue;
+        font-size: 20px;
+        background: black;
+    }
+    main {
+        width: 45%;
+        margin: 0 auto;
+    }
+    main label input {
+        width: 43%;
+        height: 40px;
+        font-size: 1.5rem;
+        background: aliceblue;
+    }
+    button {
+        width: 20%;
+        height: 40px;
+        color: aliceblue;
+        font-family: 'Unbounded', cursive;
+        font-size: 1.3rem;
+        background: rgb(179, 0, 94);
+    }
+    main article.radiohead, main article.cigarettesAfterSex, main article.michelleFeatherstone {
+        line-height: 2;
+        padding: 0 0 23px 0;
+    }
+	main article.radiohead {
+		font-family: 'Unbounded', cursive;
+		background: rgb(77, 69, 93);
+	}
+	main article.cigarettesAfterSex {
+	    font-family: 'Courgette', cursive;
+		background: rgb(105, 130, 105);
+	}
+	main article.michelleFeatherstone {
+		font-family: 'Josefin Slab', serif;
+		background: rgb(233, 100, 121);
+	}
+    main article div {
+        width: 3%;
+        height: 45px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main article.radiohead div.play {
+        position: absolute;
+        left: 46.6%;
+        top: 125px;
+        background-image: url(metallicPlay307x293.png);
+    }
+    main article.radiohead div.stop {
+        position: absolute;
+        right: 46.6%;
+        top: 125px;
+        background-image: url(metallicStop420x410.png);
+    }
+    main article.cigarettesAfterSex div.play {
+        position: absolute;
+        left: 46.6%;
+        top: 1969px;
+        background-image: url(metallicPlay307x293.png);
+    }
+    main article.cigarettesAfterSex div.stop {
+        position: absolute;
+        right: 46.6%;
+        top: 1969px;
+        background-image: url(metallicStop420x410.png);
+    }
+    main article.michelleFeatherstone div.play {
+        position: absolute;
+        left: 46.6%;
+        top: 4026px;
+        background-image: url(metallicPlay307x293.png);
+    }
+    main article.michelleFeatherstone div.stop {
+        position: absolute;
+        right: 46.6%;
+        top: 4026px;
+        background-image: url(metallicStop420x410.png);
+    }
+    main article.site-search {
+        height: 650px;
+        display: grid;
+        place-items: center;
+        background: rgb(245, 233, 207);
+    }
+    main article p.song {
+        padding: 23px 0 0 0;
+        text-align: center;
+    }
+    main article p {
+        padding: 0 0 0 5%;
+    }
+    main article.site-search p {
+        width: 55%;
+        font-family: 'Share Tech Mono', monospace;
+        color: black;
+        letter-spacing: .23rem;
+        line-height: 2;
+        background: rgb(125, 185, 182);
+    }
+}
